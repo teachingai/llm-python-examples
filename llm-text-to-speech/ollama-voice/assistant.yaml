@@ -1,0 +1,18 @@
+messages:
+  pressSpace: "Pressez sur espace pour parler puis relachez."
+  loadingModel: "Chargement du modèle..."
+  noAudioInput: "Erreur: Pas d'entrée son"
+
+whisperRecognition:
+  modelPath: "whisper/large-v3.pt"
+  lang: "fr"
+
+ollama:
+  url: "http://localhost:11434/api/generate"
+  model: "mistral"
+
+conversation:
+  context: "Cette conversasion est intégralement en français."
+  greeting: "Je vous écoute."
+  recognitionWaitMsg: "Oui."
+  llmWaitMsg: "Laissez moi réfléchir."
